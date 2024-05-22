@@ -7,6 +7,9 @@ from datetime import datetime
 # Directory to save images
 SAVE_DIR = 'images'
 
+if not os.path.exists(SAVE_DIR):
+  os.makedirs(SAVE_DIR)
+
 request_no = 0 
 
 headers = requests.utils.default_headers()
