@@ -17,11 +17,7 @@ with sync_playwright() as p:
 EOF
 )
 
-
-
-
-
-
+mkdir -p images
 
 REQ_NO=0
 
