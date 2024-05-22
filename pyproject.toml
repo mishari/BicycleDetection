@@ -15,7 +15,8 @@ classifiers = [
 	    ]
 dependencies = [
 	     "schedule",
-	     "requests"
+	     "requests",
+	     "playwright",
 ]
 
 [project.urls]
